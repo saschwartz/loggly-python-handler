@@ -11,7 +11,9 @@ setup(
     author_email="jayantvarshney018@gmail.com",
     url="https://github.com/psquickitjayant/loggly-python-handler/",
     license="MIT",
-    packages=find_packages(),
+    packages=[
+        "loggly"   
+    ],
     install_requires=[
         "requests-futures >= 0.9.4",
     ],
